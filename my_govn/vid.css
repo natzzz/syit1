@@ -1,0 +1,81 @@
+body {
+	background: linear-gradient(0deg, rgb(50,50,50), rgb(5,5,5)); /*Градиент*/
+	max-width: 1240px;
+	margin: auto;
+}
+h1 {
+	font-size: 40px;
+	font-family: ;
+	color: rgb(200,200,200);
+	text-align: center;
+	letter-spacing: 3px;
+}
+h2,p,li {
+	color: rgb(200,200,200);
+	font-family: ;
+	text-indent: 20px;
+}
+h2{
+	font-size: 28px;
+}
+p{
+	font-size: 24px;
+	color: rgb(200,200,20);
+}
+a{
+	font-size: 28px;
+	text-decoration: none;
+	color: rgb(200,200,200);
+	letter-spacing: 1.5px;
+}
+a:hover{
+	color: rgb(200,200,20);
+	transition: 0.5s;
+}
+ul {
+	width: 960px;
+	height: 50px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+}
+li {
+	display: inline;
+	margin: 0px 42px;
+}
+div{
+	width: 250px;
+}
+div.block1 {
+	float: left;
+	margin: 10px;
+}
+div.block2{
+	float: left;
+	margin: 10px;
+}
+div.block3{
+	float: left;
+	margin: 10px;
+}
+div.block4{
+	float: left;
+	margin: 10px;
+}
+div.block5{	
+}
+div.verh {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	right: 2%;
+	bottom: 2%;
+	z-index: 10;
+}
+div.verh:hover {
+	width: 52px;
+	height: 52px;
+	position: fixed;
+	right: 1.8%;
+	bottom: 2.2%;
+	z-index: 10;
+}
